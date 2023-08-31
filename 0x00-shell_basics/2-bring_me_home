@@ -1,2 +1,39 @@
-
 #!/bin/bash
+
+cd ~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+select 2-bring_me_home in ; do
+    $2-bring_me_home
+done

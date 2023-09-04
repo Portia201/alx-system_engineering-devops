@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Use the find command to locate all .js files and delete them
+find . -type f -name "*.js" -exec rm -f {} \;

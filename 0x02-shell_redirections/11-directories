@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# Use the find command to search for directories, including hidden ones, but excluding "." and ".."
-num_dirs=$(find . -type d -not -name '.' -not -name '..' | wc -l)
-
-# Print the count of directories
-echo "Number of directories and subdirectories (including hidden): $num_dirs"

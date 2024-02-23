@@ -1,0 +1,38 @@
+ls -la
+ls -la
+total 148
+drwxr-xr-x 2 root root  4096 Sep  4 13:54 .
+drwxr-xr-x 6 root root   121 Sep  4 00:13 ..
+-rwxr-xr-x 1 root root    32 Sep  4 05:00 0-hello_world
+-rwxr-xr-x 1 root root    53 Sep  4 13:48 100-empty_casks
+-rwxr-xr-x 1 root root    86 Sep  4 12:53 101-gifs
+-rwxr-xr-x 1 root root    39 Sep  4 12:59 102-acrostic
+-rwxr-xr-x 1 root root    76 Sep  4 13:15 103-the_biggest_fan
+-rwxr-xr-x 1 root root    48 Sep  4 08:25 10-no_more_js
+-rwxr-xr-x 1 root root    46 Sep  4 08:37 11-directories
+-rwxr-xr-x 1 root root    32 Sep  4 08:44 12-newest_files
+-rwxr-xr-x 1 root root    27 Sep  4 08:56 13-unique
+-rwxr-xr-x 1 root root    39 Sep  4 09:14 14-findthatword
+-rwxr-xr-x 1 root root    41 Sep  4 09:32 15-countthatword
+-rwxr-xr-x 1 root root    44 Sep  4 09:41 16-whatsnext
+-rwxr-xr-x 1 root root    41 Sep  4 09:49 17-hidethisword
+-rwxr-xr-x 1 root root    50 Sep  4 10:44 18-letteronly
+-rwxr-xr-x 1 root root    36 Sep  4 10:57 19-AZ
+-rwxr-xr-x 1 root root    28 Sep  4 05:20 1-confused_smiley
+-rwxr-xr-x 1 root root    21 Sep  4 11:17 20-hiago
+-rwxr-xr-x 1 root root    16 Sep  4 11:56 21-reverse
+-rwxr-xr-x 1 root root    53 Sep  4 12:00 22-users_and_homes
+-rwxr-xr-x 1 root root    29 Sep  4 05:44 2-hellofile
+-rw------- 1 root root 12288 Sep  4 05:32 .2-hellofile.swp
+-rwxr-xr-x 1 root root    39 Sep  4 06:09 3-twofiles
+-rwxr-xr-x 1 root root    29 Sep  4 07:44 4-lastlines
+-rwxr-xr-x 1 root root    29 Sep  4 07:40 5-firstlines
+-rwxr-xr-x 1 root root    40 Sep  4 13:35 6-third_line
+-rwxr-xr-x 1 root root    72 Sep  4 08:04 7-file
+-rwxr-xr-x 1 root root    37 Sep  4 13:54 8-cwd_state
+-rwxr-xr-x 1 root root    37 Sep  4 08:17 9-duplicate_last_line
+-rw-r--r-- 1 root root     1 Sep  4 11:57 clear
+-rw-r--r-- 1 root root 12288 Sep  4 02:07 .create_special_file.sh.swp
+-rw-r--r-- 1 root root     0 Sep  4 07:55 iecta
+-rw-r--r-- 1 root root    14 Sep  4 13:52 ls_cwd_content
+-rw-r--r-- 1 root root    42 Sep  4 04:49 README.md

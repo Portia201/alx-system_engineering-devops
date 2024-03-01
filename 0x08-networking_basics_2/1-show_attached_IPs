@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Show attached IPs
 
 if [[ $(uname) == "Linux" ]]; then

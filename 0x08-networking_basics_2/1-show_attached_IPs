@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# Show attached IPs
+
+if [[ $(uname) == "Linux" ]]; then
+   # For Linux systems using 'ip' command
+   if command -v ip > /dev/null; then
+      ip addr show | awk '/inet / {print $2}' | cut -d '/' -f 1
+   else
+       echo "Error: 'ip' command not found."
+   fi
+elif [[ $(uname) == "Darwin" ]]; then
+    # For macOS using 'ifconfig' command
+    if command -v ifconfig > /dev/null; then
+       ifconfig | grep "inet " | awk '{print $2}'
+    else
+	echo "Error: 'ifconfig' command not found."
+    fi
+else
+   echo "Error: Unsupported operating system."
+fi

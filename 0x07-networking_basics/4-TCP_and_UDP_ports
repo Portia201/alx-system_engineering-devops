@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Display listening ports and associated PID and program name
+
+# Get listening ports and their PIDs
+listening_ports=$(sudo netstat -tuln | grep 'LISTEN')
+
+# Print header
+echo "Listening Ports    PID    Program Name"
+
+# Iterate over each line of listening ports
+while read -r line; do
+       # Extract port number and PID
+       port=$(echo "$line" | awk '{print $4}' | cut -d ":" -f 2)
+       pid=$(echo "$line" | awk '{print $7}' | cut -d "/" -f 1)
+	
+       # Get program name associated with PID
+       program_name=$(sudo lsof -i :$port -sTCP:LISTEN -t -P | xargs ps -o comm= -p | tail -n 1)
+       
+       # Print port, PID, and program name
+       echo "$port           $pid    $program_name"
+done <<< "$listening_ports" 

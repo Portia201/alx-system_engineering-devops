@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+case "$1" in
+    start)
+        /alx-system_engineering-devops/0x05-processes_and_signals/manage_my_process start
+        ;;
+    stop)
+        /alx-system_engineering-devops/0x05-processes_and_signals/manage_my_process stop
+        ;;
+    restart)
+        /alx-system_engineering-devops/0x05-processes_and_signals/manage_my_process restart
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart}"
+        exit 1
+        ;;
+esac
+
+exit 0
